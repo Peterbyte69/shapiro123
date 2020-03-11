@@ -28,17 +28,19 @@ namespace shapiro123
                     Console.WriteLine("\nPlease try agian\n");
                     intput1 = 0;
                 }
-            
+                if(intput1 == 2);
+                {
+                    Console.WriteLine("What is your desired username?");
+                       
+                }
             }
         }
 
-        static void signUp()
+        static bool usernameChecker(string username)
         {
-            StreamReader readerman = new StreamReader("C:/Users/k035896/Documents/computing text files/shapiro123.txt");
-            StreamWriter writerman = new StreamWriter("C:/Users/k035896/Documents/computing text files/shapiro123.txt");
-            Console.WriteLine("Please insert your desired username:");
-            Console.Write("Username = ");
-            Console.ReadLine();
+            
         }
     }
 }
+        
+
